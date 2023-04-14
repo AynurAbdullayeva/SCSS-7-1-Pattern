@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400&family=Handlee&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header li {
+  transition: 0.4s linear;
+}
+header li a {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px 20px 40px;
+  font-family: "Cabin", sans-serif;
+}
+header li a:hover {
+  color: rgb(255, 208, 0);
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgba(22, 82, 172, 0.911);
+  color: white;
+  border-radius: 9px;
+  padding: 10px 25px;
+  white-space: nowrap;
+  border: none;
+  font-size: 15px;
+  transition: 0.3s linear;
+}
+.btn:hover {
+  background-color: rgb(9, 60, 228);
+}
+
+header {
+  padding: 20px 0px;
+  background-color: rgb(26, 16, 16);
+}
+header .nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .nav_logo {
+  color: yellow;
+  font-family: "Handlee";
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+header .nav_links {
+  display: flex;
+  align-items: center;
+}
+header .nav_links ul {
+  display: flex;
+  padding-right: 40px;
+}
+@media (max-width: 992px) {
+  header .nav_links ul {
+    display: none;
+  }
+}
+header .nav_links ul li {
+  margin-right: 15px;
+}
+
+.section1 {
+  background-image: url(https://w0.peakpx.com/wallpaper/117/624/HD-wallpaper-minimalistic-pencils-pen-pencil-minimal-yellow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.section1 .box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: "Cabin", sans-serif;
+  gap: 30px;
+}
+.section1 .box h1 {
+  font-size: 100px;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+}
+.section2 .box2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-family: "Cabin", sans-serif;
+  gap: 30px;
+}
+.section2 .box2 p {
+  color: gray;
+}
+.section2 .box2 .btn {
+  background-color: rgb(56, 56, 56);
+}
+
+.section3 {
+  border: 1px solid #F8F9FA;
+  width: 100%;
+  height: 100vh;
+  font-family: "Cabin", sans-serif;
+}
+.section3 .cards {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  background-color: #F8F9FA;
+}
+.section3 .cards h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.section3 .cards i {
+  color: rgb(56, 56, 56);
+  padding-bottom: 15px;
+}
+.section3 .cards .row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+}
+.section3 .cards .row .col-4 {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  background-color: #F8F9FA;
+  border: 1px solid #F8F9FA;
+  border-radius: 12px;
+}
+.section3 .cards .row .col-4 img {
+  padding-top: 10px;
+  width: 200px;
+  height: 200px;
+  border: 12px rgb(170, 61, 61);
+  border-radius: 50%;
+}
+.section3 .cards .row .col-4 p {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: larger;
+  color: rgb(56, 56, 56);
+}
+.section3 .cards .row .col-4 h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+.section3 .cards .row .col-4 li {
+  font-size: xx-large;
+  float: left;
+  position: relative;
+  left: 110px;
+}
+.section3 .cards .row .col-4 li i {
+  padding: 15px 15px 15px 15px;
+}
+
+.section4 {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid rgba(22, 82, 172, 0.911);
+  display: flex;
+  justify-content: center;
+  font-family: "Cabin", sans-serif;
+  background-color: rgba(22, 82, 172, 0.911);
+}
+.section4 .box3 {
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  gap: 20px;
+}
+.section4 .box3 h4 {
+  color: yellow;
+}
+.section4 .box3 h1 {
+  font-size: 60px;
+  color: white;
+}
+.section4 .box3 .row {
+  padding-top: 30px;
+  padding-left: 70px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+.section4 .box3 .row .col-3 {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+.section4 .box3 .row .col-3 i {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: rgba(22, 82, 172, 0.911);
+  background-color: white;
+  padding-top: 30px;
+  font-size: 40px;
+}
+.section4 .box3 .row .col-3 p {
+  color: white;
+}
+.section4 .box3 .row .col-3 h3 {
+  padding-top: 20px;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

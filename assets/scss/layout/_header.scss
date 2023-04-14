@@ -1,0 +1,38 @@
+header {
+    padding: 20px 0px;
+    background-color: $brown;
+    .nav {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+        &_logo {
+            color: $yellow;
+            font-family: $secondary-font;
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0;
+            padding-left: 40px;
+            padding-top: 10px;
+
+        }
+        &_links{
+            display: flex;
+            align-items: center;
+            
+            ul{
+                display: flex;
+                padding-right: 40px;
+                @include for-tablet{
+                    display: none;
+                }
+              
+            
+                li{
+                    margin-right: 15px;
+                    
+                }
+            }
+        }
+    }
+}

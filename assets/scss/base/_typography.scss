@@ -1,0 +1,15 @@
+header li {
+    transition: 0.4s linear;
+
+    a {
+        color: $white;
+        display: flex;
+        align-items: center;
+        padding: 20px 20px 20px 40px;
+        font-family: $main-font;
+
+        &:hover {
+            color: $hover-yellow;
+        }
+    }
+}
